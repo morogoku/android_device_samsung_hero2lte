@@ -20,8 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_DEVICE := herolte
-PRODUCT_NAME := omni_herolte
-PRODUCT_MODEL := SM-G930F
+PRODUCT_DEVICE := hero2lte
+PRODUCT_NAME := omni_hero2lte
+PRODUCT_MODEL := SM-G935F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung

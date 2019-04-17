@@ -37,10 +37,10 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/samsung/herolte/kernel
+TARGET_PREBUILT_KERNEL := device/samsung/hero2lte/kernel
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/herolte/dt.img
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/hero2lte/dt.img
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -58,7 +58,6 @@ TW_DEFAULT_BRIGHTNESS := 162
 TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := true
 TW_INCLUDE_NTFS_3G := true
-TW_NO_EXFAT_FUSE := true
 TW_INCLUDE_FBE := true
 TW_INCLUDE_CRYPTO := true
 TW_EXTRA_LANGUAGES := true
